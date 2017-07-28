@@ -1,1532 +1,780 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>072AD5D87F89CFF64BC3C231</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-JJJComics.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-JJJComics/Pods-JJJComics.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0E8760291C324C34330F4F6A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>70699FB77B674015FBFFF907</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>18BAB1C589CD2AC069C3AAD1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-JJJComicsTests/Pods-JJJComicsTests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>23C43BED7130238763C71CDD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52B76CBAB30CF2F44E7C73CE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>23EA8E1AE83944F3339EDAC5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>442AACD9AD6F030CF99214AC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>94A8B6E5B42451F91034B832</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52B76CBAB30CF2F44E7C73CE</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_JJJComics.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>59E68BD8CFB4C1B591AF2987</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-JJJComicsUITests.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-JJJComicsUITests/Pods-JJJComicsUITests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6A3C0FD71915122BAC54197B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-JJJComicsTests.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-JJJComicsTests/Pods-JJJComicsTests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6C6B152037A900CC615FD606</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-JJJComicsTests.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-JJJComicsTests/Pods-JJJComicsTests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>70699FB77B674015FBFFF907</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_JJJComicsUITests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7E9918DEB4716B43E2633E8A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>94A8B6E5B42451F91034B832</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_JJJComicsTests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>9B0A98BE1F2612D1003CDDAF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9B0A98C91F2612D1003CDDAF</string>
-				<string>9B0A98DE1F2612D1003CDDAF</string>
-				<string>9B0A98E91F2612D1003CDDAF</string>
-				<string>9B0A98C81F2612D1003CDDAF</string>
-				<string>F61397446DD2B67A44E239D1</string>
-				<string>E9FDB6E74F8C86E984EE93A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0A98BF1F2612D1003CDDAF</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0830</string>
-				<key>LastUpgradeCheck</key>
-				<string>0830</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>jjj</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>9B0A98C61F2612D1003CDDAF</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.3.2</string>
-						<key>DevelopmentTeam</key>
-						<string>9C56SBN5RU</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-					</dict>
-					<key>9B0A98DA1F2612D1003CDDAF</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.3.2</string>
-						<key>DevelopmentTeam</key>
-						<string>9C56SBN5RU</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-						<key>TestTargetID</key>
-						<string>9B0A98C61F2612D1003CDDAF</string>
-					</dict>
-					<key>9B0A98E51F2612D1003CDDAF</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.3.2</string>
-						<key>DevelopmentTeam</key>
-						<string>9C56SBN5RU</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-						<key>TestTargetID</key>
-						<string>9B0A98C61F2612D1003CDDAF</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>9B0A98C21F2612D1003CDDAF</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>9B0A98BE1F2612D1003CDDAF</string>
-			<key>productRefGroup</key>
-			<string>9B0A98C81F2612D1003CDDAF</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>9B0A98C61F2612D1003CDDAF</string>
-				<string>9B0A98DA1F2612D1003CDDAF</string>
-				<string>9B0A98E51F2612D1003CDDAF</string>
-			</array>
-		</dict>
-		<key>9B0A98C21F2612D1003CDDAF</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>9B0A98ED1F2612D1003CDDAF</string>
-				<string>9B0A98EE1F2612D1003CDDAF</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>9B0A98C31F2612D1003CDDAF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9B0A99021F26144A003CDDAF</string>
-				<string>9B0A99011F26144A003CDDAF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9B0A98C41F2612D1003CDDAF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>23C43BED7130238763C71CDD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9B0A98C51F2612D1003CDDAF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9B0A98D51F2612D1003CDDAF</string>
-				<string>9B0A98D21F2612D1003CDDAF</string>
-				<string>9B0A98D01F2612D1003CDDAF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9B0A98C61F2612D1003CDDAF</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>9B0A98EF1F2612D1003CDDAF</string>
-			<key>buildPhases</key>
-			<array>
-				<string>9E181436C17628BAB9819613</string>
-				<string>9B0A98C31F2612D1003CDDAF</string>
-				<string>9B0A98C41F2612D1003CDDAF</string>
-				<string>9B0A98C51F2612D1003CDDAF</string>
-				<string>A6AA04663FB06B30F8694D56</string>
-				<string>9B5B6292834A0C9FF4BA4E37</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>JJJComics</string>
-			<key>productName</key>
-			<string>JJJComics</string>
-			<key>productReference</key>
-			<string>9B0A98C71F2612D1003CDDAF</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>9B0A98C71F2612D1003CDDAF</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>JJJComics.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>9B0A98C81F2612D1003CDDAF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9B0A98C71F2612D1003CDDAF</string>
-				<string>9B0A98DB1F2612D1003CDDAF</string>
-				<string>9B0A98E61F2612D1003CDDAF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0A98C91F2612D1003CDDAF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9B0A98F81F26144A003CDDAF</string>
-				<string>9B0A98CE1F2612D1003CDDAF</string>
-				<string>9B0A98D11F2612D1003CDDAF</string>
-				<string>9B0A98D31F2612D1003CDDAF</string>
-				<string>9B0A98D61F2612D1003CDDAF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>JJJComics</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0A98CE1F2612D1003CDDAF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9B0A98CF1F2612D1003CDDAF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0A98CF1F2612D1003CDDAF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0A98D01F2612D1003CDDAF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9B0A98CE1F2612D1003CDDAF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9B0A98D11F2612D1003CDDAF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0A98D21F2612D1003CDDAF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9B0A98D11F2612D1003CDDAF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9B0A98D31F2612D1003CDDAF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9B0A98D41F2612D1003CDDAF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0A98D41F2612D1003CDDAF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0A98D51F2612D1003CDDAF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9B0A98D31F2612D1003CDDAF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9B0A98D61F2612D1003CDDAF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0A98D71F2612D1003CDDAF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9B0A98E01F2612D1003CDDAF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9B0A98D81F2612D1003CDDAF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>442AACD9AD6F030CF99214AC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9B0A98D91F2612D1003CDDAF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9B0A98DA1F2612D1003CDDAF</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>9B0A98F21F2612D1003CDDAF</string>
-			<key>buildPhases</key>
-			<array>
-				<string>7E9918DEB4716B43E2633E8A</string>
-				<string>9B0A98D71F2612D1003CDDAF</string>
-				<string>9B0A98D81F2612D1003CDDAF</string>
-				<string>9B0A98D91F2612D1003CDDAF</string>
-				<string>AFCDA910A3F57625803638E6</string>
-				<string>18BAB1C589CD2AC069C3AAD1</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>9B0A98DD1F2612D1003CDDAF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>JJJComicsTests</string>
-			<key>productName</key>
-			<string>JJJComicsTests</string>
-			<key>productReference</key>
-			<string>9B0A98DB1F2612D1003CDDAF</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>9B0A98DB1F2612D1003CDDAF</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>JJJComicsTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>9B0A98DC1F2612D1003CDDAF</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>9B0A98BF1F2612D1003CDDAF</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>9B0A98C61F2612D1003CDDAF</string>
-			<key>remoteInfo</key>
-			<string>JJJComics</string>
-		</dict>
-		<key>9B0A98DD1F2612D1003CDDAF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>9B0A98C61F2612D1003CDDAF</string>
-			<key>targetProxy</key>
-			<string>9B0A98DC1F2612D1003CDDAF</string>
-		</dict>
-		<key>9B0A98DE1F2612D1003CDDAF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9B0A98DF1F2612D1003CDDAF</string>
-				<string>9B0A98E11F2612D1003CDDAF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>JJJComicsTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0A98DF1F2612D1003CDDAF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>JJJComicsTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0A98E01F2612D1003CDDAF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9B0A98DF1F2612D1003CDDAF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9B0A98E11F2612D1003CDDAF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0A98E21F2612D1003CDDAF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9B0A98EB1F2612D1003CDDAF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9B0A98E31F2612D1003CDDAF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0E8760291C324C34330F4F6A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9B0A98E41F2612D1003CDDAF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9B0A98E51F2612D1003CDDAF</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>9B0A98F51F2612D1003CDDAF</string>
-			<key>buildPhases</key>
-			<array>
-				<string>23EA8E1AE83944F3339EDAC5</string>
-				<string>9B0A98E21F2612D1003CDDAF</string>
-				<string>9B0A98E31F2612D1003CDDAF</string>
-				<string>9B0A98E41F2612D1003CDDAF</string>
-				<string>AB03504F22B0D7D0361C31FA</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>9B0A98E81F2612D1003CDDAF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>JJJComicsUITests</string>
-			<key>productName</key>
-			<string>JJJComicsUITests</string>
-			<key>productReference</key>
-			<string>9B0A98E61F2612D1003CDDAF</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.ui-testing</string>
-		</dict>
-		<key>9B0A98E61F2612D1003CDDAF</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>JJJComicsUITests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>9B0A98E71F2612D1003CDDAF</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>9B0A98BF1F2612D1003CDDAF</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>9B0A98C61F2612D1003CDDAF</string>
-			<key>remoteInfo</key>
-			<string>JJJComics</string>
-		</dict>
-		<key>9B0A98E81F2612D1003CDDAF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>9B0A98C61F2612D1003CDDAF</string>
-			<key>targetProxy</key>
-			<string>9B0A98E71F2612D1003CDDAF</string>
-		</dict>
-		<key>9B0A98E91F2612D1003CDDAF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9B0A98EA1F2612D1003CDDAF</string>
-				<string>9B0A98EC1F2612D1003CDDAF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>JJJComicsUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0A98EA1F2612D1003CDDAF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>JJJComicsUITests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0A98EB1F2612D1003CDDAF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9B0A98EA1F2612D1003CDDAF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9B0A98EC1F2612D1003CDDAF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0A98ED1F2612D1003CDDAF</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INFINITE_RECURSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_ACTIVE_COMPILATION_CONDITIONS</key>
-				<string>DEBUG</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>9B0A98EE1F2612D1003CDDAF</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INFINITE_RECURSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Owholemodule</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>9B0A98EF1F2612D1003CDDAF</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>9B0A98F01F2612D1003CDDAF</string>
-				<string>9B0A98F11F2612D1003CDDAF</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>9B0A98F01F2612D1003CDDAF</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>DCAA4A4749D8B53546CDE084</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>9C56SBN5RU</string>
-				<key>INFOPLIST_FILE</key>
-				<string>JJJComics/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>jjj.JJJComics</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>9B0A98F11F2612D1003CDDAF</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>072AD5D87F89CFF64BC3C231</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>9C56SBN5RU</string>
-				<key>INFOPLIST_FILE</key>
-				<string>JJJComics/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>jjj.JJJComics</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>9B0A98F21F2612D1003CDDAF</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>9B0A98F31F2612D1003CDDAF</string>
-				<string>9B0A98F41F2612D1003CDDAF</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>9B0A98F31F2612D1003CDDAF</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>6C6B152037A900CC615FD606</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
-				<string>YES</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>9C56SBN5RU</string>
-				<key>INFOPLIST_FILE</key>
-				<string>JJJComicsTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>jjj.JJJComicsTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/JJJComics.app/JJJComics</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>9B0A98F41F2612D1003CDDAF</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>6A3C0FD71915122BAC54197B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
-				<string>YES</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>9C56SBN5RU</string>
-				<key>INFOPLIST_FILE</key>
-				<string>JJJComicsTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>jjj.JJJComicsTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/JJJComics.app/JJJComics</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>9B0A98F51F2612D1003CDDAF</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>9B0A98F61F2612D1003CDDAF</string>
-				<string>9B0A98F71F2612D1003CDDAF</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>9B0A98F61F2612D1003CDDAF</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>59E68BD8CFB4C1B591AF2987</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
-				<string>YES</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>9C56SBN5RU</string>
-				<key>INFOPLIST_FILE</key>
-				<string>JJJComicsUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>jjj.JJJComicsUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>JJJComics</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>9B0A98F71F2612D1003CDDAF</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F2E814428DDC9A631CB82DD7</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
-				<string>YES</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>9C56SBN5RU</string>
-				<key>INFOPLIST_FILE</key>
-				<string>JJJComicsUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>jjj.JJJComicsUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>JJJComics</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>9B0A98F81F26144A003CDDAF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9B0A98F91F26144A003CDDAF</string>
-				<string>9B0A98FA1F26144A003CDDAF</string>
-				<string>9B0A98FB1F26144A003CDDAF</string>
-				<string>9B0A98FC1F26144A003CDDAF</string>
-				<string>9B0A98FF1F26144A003CDDAF</string>
-				<string>9B0A99001F26144A003CDDAF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0A98F91F26144A003CDDAF</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>BaseModels</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0A98FA1F26144A003CDDAF</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>BaseViewControllers</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0A98FB1F26144A003CDDAF</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>BaseViews</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0A98FC1F26144A003CDDAF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9B0A98FD1F26144A003CDDAF</string>
-				<string>9B0A98FE1F26144A003CDDAF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Main</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0A98FD1F26144A003CDDAF</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0A98FE1F26144A003CDDAF</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0A98FF1F26144A003CDDAF</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Others</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0A99001F26144A003CDDAF</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Tools(&#24037;&#20855;&#31867;)</string>
-			<key>path</key>
-			<string>Tools</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B0A99011F26144A003CDDAF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9B0A98FD1F26144A003CDDAF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9B0A99021F26144A003CDDAF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9B0A98FE1F26144A003CDDAF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9B5B6292834A0C9FF4BA4E37</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-JJJComics/Pods-JJJComics-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>9E181436C17628BAB9819613</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>A6AA04663FB06B30F8694D56</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-JJJComics/Pods-JJJComics-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>AB03504F22B0D7D0361C31FA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-JJJComicsUITests/Pods-JJJComicsUITests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>AFCDA910A3F57625803638E6</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-JJJComicsTests/Pods-JJJComicsTests-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>DCAA4A4749D8B53546CDE084</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-JJJComics.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-JJJComics/Pods-JJJComics.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9FDB6E74F8C86E984EE93A5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52B76CBAB30CF2F44E7C73CE</string>
-				<string>94A8B6E5B42451F91034B832</string>
-				<string>70699FB77B674015FBFFF907</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F2E814428DDC9A631CB82DD7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-JJJComicsUITests.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-JJJComicsUITests/Pods-JJJComicsUITests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F61397446DD2B67A44E239D1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DCAA4A4749D8B53546CDE084</string>
-				<string>072AD5D87F89CFF64BC3C231</string>
-				<string>6C6B152037A900CC615FD606</string>
-				<string>6A3C0FD71915122BAC54197B</string>
-				<string>59E68BD8CFB4C1B591AF2987</string>
-				<string>F2E814428DDC9A631CB82DD7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>9B0A98BF1F2612D1003CDDAF</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E8760291C324C34330F4F6A /* Pods_JJJComicsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70699FB77B674015FBFFF907 /* Pods_JJJComicsUITests.framework */; };
+		23C43BED7130238763C71CDD /* Pods_JJJComics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B76CBAB30CF2F44E7C73CE /* Pods_JJJComics.framework */; };
+		442AACD9AD6F030CF99214AC /* Pods_JJJComicsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A8B6E5B42451F91034B832 /* Pods_JJJComicsTests.framework */; };
+		9B0A98D01F2612D1003CDDAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0A98CE1F2612D1003CDDAF /* Main.storyboard */; };
+		9B0A98D21F2612D1003CDDAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0A98D11F2612D1003CDDAF /* Assets.xcassets */; };
+		9B0A98D51F2612D1003CDDAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0A98D31F2612D1003CDDAF /* LaunchScreen.storyboard */; };
+		9B0A98E01F2612D1003CDDAF /* JJJComicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A98DF1F2612D1003CDDAF /* JJJComicsTests.swift */; };
+		9B0A98EB1F2612D1003CDDAF /* JJJComicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A98EA1F2612D1003CDDAF /* JJJComicsUITests.swift */; };
+		9B0A99011F26144A003CDDAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A98FD1F26144A003CDDAF /* AppDelegate.swift */; };
+		9B0A99021F26144A003CDDAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A98FE1F26144A003CDDAF /* ViewController.swift */; };
+		9B0A99061F273212003CDDAF /* JJJtest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A99051F273212003CDDAF /* JJJtest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B0A98DC1F2612D1003CDDAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B0A98BF1F2612D1003CDDAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B0A98C61F2612D1003CDDAF;
+			remoteInfo = JJJComics;
+		};
+		9B0A98E71F2612D1003CDDAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B0A98BF1F2612D1003CDDAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B0A98C61F2612D1003CDDAF;
+			remoteInfo = JJJComics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		072AD5D87F89CFF64BC3C231 /* Pods-JJJComics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJJComics.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJJComics/Pods-JJJComics.release.xcconfig"; sourceTree = "<group>"; };
+		52B76CBAB30CF2F44E7C73CE /* Pods_JJJComics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJJComics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E68BD8CFB4C1B591AF2987 /* Pods-JJJComicsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJJComicsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJJComicsUITests/Pods-JJJComicsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A3C0FD71915122BAC54197B /* Pods-JJJComicsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJJComicsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJJComicsTests/Pods-JJJComicsTests.release.xcconfig"; sourceTree = "<group>"; };
+		6C6B152037A900CC615FD606 /* Pods-JJJComicsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJJComicsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJJComicsTests/Pods-JJJComicsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		70699FB77B674015FBFFF907 /* Pods_JJJComicsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJJComicsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A8B6E5B42451F91034B832 /* Pods_JJJComicsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJJComicsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0A98C71F2612D1003CDDAF /* JJJComics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJJComics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0A98CF1F2612D1003CDDAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B0A98D11F2612D1003CDDAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B0A98D41F2612D1003CDDAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B0A98D61F2612D1003CDDAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0A98DB1F2612D1003CDDAF /* JJJComicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJJComicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0A98DF1F2612D1003CDDAF /* JJJComicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJJComicsTests.swift; sourceTree = "<group>"; };
+		9B0A98E11F2612D1003CDDAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0A98E61F2612D1003CDDAF /* JJJComicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJJComicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0A98EA1F2612D1003CDDAF /* JJJComicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJJComicsUITests.swift; sourceTree = "<group>"; };
+		9B0A98EC1F2612D1003CDDAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0A98FD1F26144A003CDDAF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B0A98FE1F26144A003CDDAF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B0A99051F273212003CDDAF /* JJJtest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJJtest.swift; sourceTree = "<group>"; };
+		DCAA4A4749D8B53546CDE084 /* Pods-JJJComics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJJComics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJJComics/Pods-JJJComics.debug.xcconfig"; sourceTree = "<group>"; };
+		F2E814428DDC9A631CB82DD7 /* Pods-JJJComicsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJJComicsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJJComicsUITests/Pods-JJJComicsUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B0A98C41F2612D1003CDDAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C43BED7130238763C71CDD /* Pods_JJJComics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0A98D81F2612D1003CDDAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				442AACD9AD6F030CF99214AC /* Pods_JJJComicsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0A98E31F2612D1003CDDAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E8760291C324C34330F4F6A /* Pods_JJJComicsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B0A98BE1F2612D1003CDDAF = {
+			isa = PBXGroup;
+			children = (
+				9B0A98C91F2612D1003CDDAF /* JJJComics */,
+				9B0A98DE1F2612D1003CDDAF /* JJJComicsTests */,
+				9B0A98E91F2612D1003CDDAF /* JJJComicsUITests */,
+				9B0A98C81F2612D1003CDDAF /* Products */,
+				F61397446DD2B67A44E239D1 /* Pods */,
+				E9FDB6E74F8C86E984EE93A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B0A98C81F2612D1003CDDAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B0A98C71F2612D1003CDDAF /* JJJComics.app */,
+				9B0A98DB1F2612D1003CDDAF /* JJJComicsTests.xctest */,
+				9B0A98E61F2612D1003CDDAF /* JJJComicsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B0A98C91F2612D1003CDDAF /* JJJComics */ = {
+			isa = PBXGroup;
+			children = (
+				9B0A98F81F26144A003CDDAF /* Classes */,
+				9B0A98CE1F2612D1003CDDAF /* Main.storyboard */,
+				9B0A98D11F2612D1003CDDAF /* Assets.xcassets */,
+				9B0A98D31F2612D1003CDDAF /* LaunchScreen.storyboard */,
+				9B0A98D61F2612D1003CDDAF /* Info.plist */,
+			);
+			path = JJJComics;
+			sourceTree = "<group>";
+		};
+		9B0A98DE1F2612D1003CDDAF /* JJJComicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B0A98DF1F2612D1003CDDAF /* JJJComicsTests.swift */,
+				9B0A98E11F2612D1003CDDAF /* Info.plist */,
+			);
+			path = JJJComicsTests;
+			sourceTree = "<group>";
+		};
+		9B0A98E91F2612D1003CDDAF /* JJJComicsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B0A98EA1F2612D1003CDDAF /* JJJComicsUITests.swift */,
+				9B0A98EC1F2612D1003CDDAF /* Info.plist */,
+			);
+			path = JJJComicsUITests;
+			sourceTree = "<group>";
+		};
+		9B0A98F81F26144A003CDDAF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9B0A98F91F26144A003CDDAF /* BaseModels */,
+				9B0A98FA1F26144A003CDDAF /* BaseViewControllers */,
+				9B0A98FB1F26144A003CDDAF /* BaseViews */,
+				9B0A98FC1F26144A003CDDAF /* Main */,
+				9B0A98FF1F26144A003CDDAF /* Others */,
+				9B0A99001F26144A003CDDAF /* Tools(工具类) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9B0A98F91F26144A003CDDAF /* BaseModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseModels;
+			sourceTree = "<group>";
+		};
+		9B0A98FA1F26144A003CDDAF /* BaseViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseViewControllers;
+			sourceTree = "<group>";
+		};
+		9B0A98FB1F26144A003CDDAF /* BaseViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseViews;
+			sourceTree = "<group>";
+		};
+		9B0A98FC1F26144A003CDDAF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9B0A98FD1F26144A003CDDAF /* AppDelegate.swift */,
+				9B0A98FE1F26144A003CDDAF /* ViewController.swift */,
+				9B0A99051F273212003CDDAF /* JJJtest.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9B0A98FF1F26144A003CDDAF /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		9B0A99001F26144A003CDDAF /* Tools(工具类) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Tools(工具类)";
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E9FDB6E74F8C86E984EE93A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52B76CBAB30CF2F44E7C73CE /* Pods_JJJComics.framework */,
+				94A8B6E5B42451F91034B832 /* Pods_JJJComicsTests.framework */,
+				70699FB77B674015FBFFF907 /* Pods_JJJComicsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F61397446DD2B67A44E239D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCAA4A4749D8B53546CDE084 /* Pods-JJJComics.debug.xcconfig */,
+				072AD5D87F89CFF64BC3C231 /* Pods-JJJComics.release.xcconfig */,
+				6C6B152037A900CC615FD606 /* Pods-JJJComicsTests.debug.xcconfig */,
+				6A3C0FD71915122BAC54197B /* Pods-JJJComicsTests.release.xcconfig */,
+				59E68BD8CFB4C1B591AF2987 /* Pods-JJJComicsUITests.debug.xcconfig */,
+				F2E814428DDC9A631CB82DD7 /* Pods-JJJComicsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B0A98C61F2612D1003CDDAF /* JJJComics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B0A98EF1F2612D1003CDDAF /* Build configuration list for PBXNativeTarget "JJJComics" */;
+			buildPhases = (
+				9E181436C17628BAB9819613 /* 📦 Check Pods Manifest.lock */,
+				9B0A98C31F2612D1003CDDAF /* Sources */,
+				9B0A98C41F2612D1003CDDAF /* Frameworks */,
+				9B0A98C51F2612D1003CDDAF /* Resources */,
+				A6AA04663FB06B30F8694D56 /* 📦 Embed Pods Frameworks */,
+				9B5B6292834A0C9FF4BA4E37 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJJComics;
+			productName = JJJComics;
+			productReference = 9B0A98C71F2612D1003CDDAF /* JJJComics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B0A98DA1F2612D1003CDDAF /* JJJComicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B0A98F21F2612D1003CDDAF /* Build configuration list for PBXNativeTarget "JJJComicsTests" */;
+			buildPhases = (
+				7E9918DEB4716B43E2633E8A /* 📦 Check Pods Manifest.lock */,
+				9B0A98D71F2612D1003CDDAF /* Sources */,
+				9B0A98D81F2612D1003CDDAF /* Frameworks */,
+				9B0A98D91F2612D1003CDDAF /* Resources */,
+				AFCDA910A3F57625803638E6 /* 📦 Embed Pods Frameworks */,
+				18BAB1C589CD2AC069C3AAD1 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B0A98DD1F2612D1003CDDAF /* PBXTargetDependency */,
+			);
+			name = JJJComicsTests;
+			productName = JJJComicsTests;
+			productReference = 9B0A98DB1F2612D1003CDDAF /* JJJComicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B0A98E51F2612D1003CDDAF /* JJJComicsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B0A98F51F2612D1003CDDAF /* Build configuration list for PBXNativeTarget "JJJComicsUITests" */;
+			buildPhases = (
+				23EA8E1AE83944F3339EDAC5 /* 📦 Check Pods Manifest.lock */,
+				9B0A98E21F2612D1003CDDAF /* Sources */,
+				9B0A98E31F2612D1003CDDAF /* Frameworks */,
+				9B0A98E41F2612D1003CDDAF /* Resources */,
+				AB03504F22B0D7D0361C31FA /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B0A98E81F2612D1003CDDAF /* PBXTargetDependency */,
+			);
+			name = JJJComicsUITests;
+			productName = JJJComicsUITests;
+			productReference = 9B0A98E61F2612D1003CDDAF /* JJJComicsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B0A98BF1F2612D1003CDDAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = jjj;
+				TargetAttributes = {
+					9B0A98C61F2612D1003CDDAF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9C56SBN5RU;
+						ProvisioningStyle = Automatic;
+					};
+					9B0A98DA1F2612D1003CDDAF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9C56SBN5RU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9B0A98C61F2612D1003CDDAF;
+					};
+					9B0A98E51F2612D1003CDDAF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9C56SBN5RU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9B0A98C61F2612D1003CDDAF;
+					};
+				};
+			};
+			buildConfigurationList = 9B0A98C21F2612D1003CDDAF /* Build configuration list for PBXProject "JJJComics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B0A98BE1F2612D1003CDDAF;
+			productRefGroup = 9B0A98C81F2612D1003CDDAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B0A98C61F2612D1003CDDAF /* JJJComics */,
+				9B0A98DA1F2612D1003CDDAF /* JJJComicsTests */,
+				9B0A98E51F2612D1003CDDAF /* JJJComicsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B0A98C51F2612D1003CDDAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0A98D51F2612D1003CDDAF /* LaunchScreen.storyboard in Resources */,
+				9B0A98D21F2612D1003CDDAF /* Assets.xcassets in Resources */,
+				9B0A98D01F2612D1003CDDAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0A98D91F2612D1003CDDAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0A98E41F2612D1003CDDAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18BAB1C589CD2AC069C3AAD1 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJJComicsTests/Pods-JJJComicsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23EA8E1AE83944F3339EDAC5 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7E9918DEB4716B43E2633E8A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B5B6292834A0C9FF4BA4E37 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJJComics/Pods-JJJComics-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E181436C17628BAB9819613 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6AA04663FB06B30F8694D56 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJJComics/Pods-JJJComics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB03504F22B0D7D0361C31FA /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJJComicsUITests/Pods-JJJComicsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFCDA910A3F57625803638E6 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJJComicsTests/Pods-JJJComicsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B0A98C31F2612D1003CDDAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0A99021F26144A003CDDAF /* ViewController.swift in Sources */,
+				9B0A99011F26144A003CDDAF /* AppDelegate.swift in Sources */,
+				9B0A99061F273212003CDDAF /* JJJtest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0A98D71F2612D1003CDDAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0A98E01F2612D1003CDDAF /* JJJComicsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0A98E21F2612D1003CDDAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0A98EB1F2612D1003CDDAF /* JJJComicsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B0A98DD1F2612D1003CDDAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B0A98C61F2612D1003CDDAF /* JJJComics */;
+			targetProxy = 9B0A98DC1F2612D1003CDDAF /* PBXContainerItemProxy */;
+		};
+		9B0A98E81F2612D1003CDDAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B0A98C61F2612D1003CDDAF /* JJJComics */;
+			targetProxy = 9B0A98E71F2612D1003CDDAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B0A98CE1F2612D1003CDDAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B0A98CF1F2612D1003CDDAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B0A98D31F2612D1003CDDAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B0A98D41F2612D1003CDDAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B0A98ED1F2612D1003CDDAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B0A98EE1F2612D1003CDDAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B0A98F01F2612D1003CDDAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCAA4A4749D8B53546CDE084 /* Pods-JJJComics.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9C56SBN5RU;
+				INFOPLIST_FILE = JJJComics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjj.JJJComics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9B0A98F11F2612D1003CDDAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 072AD5D87F89CFF64BC3C231 /* Pods-JJJComics.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9C56SBN5RU;
+				INFOPLIST_FILE = JJJComics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjj.JJJComics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9B0A98F31F2612D1003CDDAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C6B152037A900CC615FD606 /* Pods-JJJComicsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9C56SBN5RU;
+				INFOPLIST_FILE = JJJComicsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjj.JJJComicsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJJComics.app/JJJComics";
+			};
+			name = Debug;
+		};
+		9B0A98F41F2612D1003CDDAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A3C0FD71915122BAC54197B /* Pods-JJJComicsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9C56SBN5RU;
+				INFOPLIST_FILE = JJJComicsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjj.JJJComicsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJJComics.app/JJJComics";
+			};
+			name = Release;
+		};
+		9B0A98F61F2612D1003CDDAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59E68BD8CFB4C1B591AF2987 /* Pods-JJJComicsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9C56SBN5RU;
+				INFOPLIST_FILE = JJJComicsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjj.JJJComicsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JJJComics;
+			};
+			name = Debug;
+		};
+		9B0A98F71F2612D1003CDDAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2E814428DDC9A631CB82DD7 /* Pods-JJJComicsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9C56SBN5RU;
+				INFOPLIST_FILE = JJJComicsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jjj.JJJComicsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JJJComics;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B0A98C21F2612D1003CDDAF /* Build configuration list for PBXProject "JJJComics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0A98ED1F2612D1003CDDAF /* Debug */,
+				9B0A98EE1F2612D1003CDDAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B0A98EF1F2612D1003CDDAF /* Build configuration list for PBXNativeTarget "JJJComics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0A98F01F2612D1003CDDAF /* Debug */,
+				9B0A98F11F2612D1003CDDAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B0A98F21F2612D1003CDDAF /* Build configuration list for PBXNativeTarget "JJJComicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0A98F31F2612D1003CDDAF /* Debug */,
+				9B0A98F41F2612D1003CDDAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B0A98F51F2612D1003CDDAF /* Build configuration list for PBXNativeTarget "JJJComicsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0A98F61F2612D1003CDDAF /* Debug */,
+				9B0A98F71F2612D1003CDDAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B0A98BF1F2612D1003CDDAF /* Project object */;
+}
