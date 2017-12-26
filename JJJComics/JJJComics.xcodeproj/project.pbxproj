@@ -10,6 +10,7 @@
 		0E8760291C324C34330F4F6A /* Pods_JJJComicsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70699FB77B674015FBFFF907 /* Pods_JJJComicsUITests.framework */; };
 		23C43BED7130238763C71CDD /* Pods_JJJComics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B76CBAB30CF2F44E7C73CE /* Pods_JJJComics.framework */; };
 		442AACD9AD6F030CF99214AC /* Pods_JJJComicsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A8B6E5B42451F91034B832 /* Pods_JJJComicsTests.framework */; };
+		9B08AE0D1F2F044F00D5621D /* JJJWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B08AE0C1F2F044F00D5621D /* JJJWebViewViewController.swift */; };
 		9B0A98D01F2612D1003CDDAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0A98CE1F2612D1003CDDAF /* Main.storyboard */; };
 		9B0A98D21F2612D1003CDDAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0A98D11F2612D1003CDDAF /* Assets.xcassets */; };
 		9B0A98D51F2612D1003CDDAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0A98D31F2612D1003CDDAF /* LaunchScreen.storyboard */; };
@@ -18,6 +19,8 @@
 		9B0A99011F26144A003CDDAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A98FD1F26144A003CDDAF /* AppDelegate.swift */; };
 		9B0A99021F26144A003CDDAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A98FE1F26144A003CDDAF /* ViewController.swift */; };
 		9B0A99061F273212003CDDAF /* JJJtest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A99051F273212003CDDAF /* JJJtest.swift */; };
+		9BE022D01FF122C4002BC9F5 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE022CF1FF122C4002BC9F5 /* BaseViewController.swift */; };
+		9BE022D21FF122F3002BC9F5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE022D11FF122F3002BC9F5 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,7 @@
 		6C6B152037A900CC615FD606 /* Pods-JJJComicsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJJComicsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJJComicsTests/Pods-JJJComicsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		70699FB77B674015FBFFF907 /* Pods_JJJComicsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJJComicsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A8B6E5B42451F91034B832 /* Pods_JJJComicsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJJComicsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B08AE0C1F2F044F00D5621D /* JJJWebViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJJWebViewViewController.swift; sourceTree = "<group>"; };
 		9B0A98C71F2612D1003CDDAF /* JJJComics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJJComics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0A98CF1F2612D1003CDDAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B0A98D11F2612D1003CDDAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 		9B0A98FD1F26144A003CDDAF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B0A98FE1F26144A003CDDAF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9B0A99051F273212003CDDAF /* JJJtest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJJtest.swift; sourceTree = "<group>"; };
+		9BE022CF1FF122C4002BC9F5 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9BE022D11FF122F3002BC9F5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DCAA4A4749D8B53546CDE084 /* Pods-JJJComics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJJComics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJJComics/Pods-JJJComics.debug.xcconfig"; sourceTree = "<group>"; };
 		F2E814428DDC9A631CB82DD7 /* Pods-JJJComicsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJJComicsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJJComicsUITests/Pods-JJJComicsUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -166,6 +172,7 @@
 		9B0A98FA1F26144A003CDDAF /* BaseViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				9BE022CF1FF122C4002BC9F5 /* BaseViewController.swift */,
 			);
 			path = BaseViewControllers;
 			sourceTree = "<group>";
@@ -180,9 +187,14 @@
 		9B0A98FC1F26144A003CDDAF /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				9BE022CE1FF120C3002BC9F5 /* Models */,
+				9BE022CB1FF120C3002BC9F5 /* ViewControllers */,
+				9BE022CC1FF120C3002BC9F5 /* ViewModels */,
+				9BE022CD1FF120C3002BC9F5 /* Views */,
 				9B0A98FD1F26144A003CDDAF /* AppDelegate.swift */,
 				9B0A98FE1F26144A003CDDAF /* ViewController.swift */,
 				9B0A99051F273212003CDDAF /* JJJtest.swift */,
+				9B08AE0C1F2F044F00D5621D /* JJJWebViewViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -200,6 +212,35 @@
 			);
 			name = "Tools(工具类)";
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		9BE022CB1FF120C3002BC9F5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9BE022D11FF122F3002BC9F5 /* HomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9BE022CC1FF120C3002BC9F5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9BE022CD1FF120C3002BC9F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9BE022CE1FF120C3002BC9F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		E9FDB6E74F8C86E984EE93A5 /* Frameworks */ = {
@@ -232,12 +273,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B0A98EF1F2612D1003CDDAF /* Build configuration list for PBXNativeTarget "JJJComics" */;
 			buildPhases = (
-				9E181436C17628BAB9819613 /* 📦 Check Pods Manifest.lock */,
+				9E181436C17628BAB9819613 /* [CP] Check Pods Manifest.lock */,
 				9B0A98C31F2612D1003CDDAF /* Sources */,
 				9B0A98C41F2612D1003CDDAF /* Frameworks */,
 				9B0A98C51F2612D1003CDDAF /* Resources */,
-				A6AA04663FB06B30F8694D56 /* 📦 Embed Pods Frameworks */,
-				9B5B6292834A0C9FF4BA4E37 /* 📦 Copy Pods Resources */,
+				A6AA04663FB06B30F8694D56 /* [CP] Embed Pods Frameworks */,
+				9B5B6292834A0C9FF4BA4E37 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,12 +293,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B0A98F21F2612D1003CDDAF /* Build configuration list for PBXNativeTarget "JJJComicsTests" */;
 			buildPhases = (
-				7E9918DEB4716B43E2633E8A /* 📦 Check Pods Manifest.lock */,
+				7E9918DEB4716B43E2633E8A /* [CP] Check Pods Manifest.lock */,
 				9B0A98D71F2612D1003CDDAF /* Sources */,
 				9B0A98D81F2612D1003CDDAF /* Frameworks */,
 				9B0A98D91F2612D1003CDDAF /* Resources */,
-				AFCDA910A3F57625803638E6 /* 📦 Embed Pods Frameworks */,
-				18BAB1C589CD2AC069C3AAD1 /* 📦 Copy Pods Resources */,
+				AFCDA910A3F57625803638E6 /* [CP] Embed Pods Frameworks */,
+				18BAB1C589CD2AC069C3AAD1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -273,11 +314,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B0A98F51F2612D1003CDDAF /* Build configuration list for PBXNativeTarget "JJJComicsUITests" */;
 			buildPhases = (
-				23EA8E1AE83944F3339EDAC5 /* 📦 Check Pods Manifest.lock */,
+				23EA8E1AE83944F3339EDAC5 /* [CP] Check Pods Manifest.lock */,
 				9B0A98E21F2612D1003CDDAF /* Sources */,
 				9B0A98E31F2612D1003CDDAF /* Frameworks */,
 				9B0A98E41F2612D1003CDDAF /* Resources */,
-				AB03504F22B0D7D0361C31FA /* 📦 Copy Pods Resources */,
+				AB03504F22B0D7D0361C31FA /* [CP] Copy Pods Resources */,
+				EC441084FB281ECF31A31C91 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -301,7 +343,7 @@
 				TargetAttributes = {
 					9B0A98C61F2612D1003CDDAF = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 9C56SBN5RU;
+						DevelopmentTeam = 3Y93TM9MP3;
 						ProvisioningStyle = Automatic;
 					};
 					9B0A98DA1F2612D1003CDDAF = {
@@ -366,14 +408,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		18BAB1C589CD2AC069C3AAD1 /* 📦 Copy Pods Resources */ = {
+		18BAB1C589CD2AC069C3AAD1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,44 +423,50 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJJComicsTests/Pods-JJJComicsTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		23EA8E1AE83944F3339EDAC5 /* 📦 Check Pods Manifest.lock */ = {
+		23EA8E1AE83944F3339EDAC5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JJJComicsUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7E9918DEB4716B43E2633E8A /* 📦 Check Pods Manifest.lock */ = {
+		7E9918DEB4716B43E2633E8A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JJJComicsTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9B5B6292834A0C9FF4BA4E37 /* 📦 Copy Pods Resources */ = {
+		9B5B6292834A0C9FF4BA4E37 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,44 +474,50 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJJComics/Pods-JJJComics-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9E181436C17628BAB9819613 /* 📦 Check Pods Manifest.lock */ = {
+		9E181436C17628BAB9819613 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JJJComics-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A6AA04663FB06B30F8694D56 /* 📦 Embed Pods Frameworks */ = {
+		A6AA04663FB06B30F8694D56 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JJJComics/Pods-JJJComics-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJJComics/Pods-JJJComics-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AB03504F22B0D7D0361C31FA /* 📦 Copy Pods Resources */ = {
+		AB03504F22B0D7D0361C31FA /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,19 +525,34 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJJComicsUITests/Pods-JJJComicsUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AFCDA910A3F57625803638E6 /* 📦 Embed Pods Frameworks */ = {
+		AFCDA910A3F57625803638E6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJJComicsTests/Pods-JJJComicsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC441084FB281ECF31A31C91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJJComicsUITests/Pods-JJJComicsUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -493,9 +562,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BE022D01FF122C4002BC9F5 /* BaseViewController.swift in Sources */,
 				9B0A99021F26144A003CDDAF /* ViewController.swift in Sources */,
 				9B0A99011F26144A003CDDAF /* AppDelegate.swift in Sources */,
 				9B0A99061F273212003CDDAF /* JJJtest.swift in Sources */,
+				9B08AE0D1F2F044F00D5621D /* JJJWebViewViewController.swift in Sources */,
+				9BE022D21FF122F3002BC9F5 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -650,7 +722,7 @@
 			baseConfigurationReference = DCAA4A4749D8B53546CDE084 /* Pods-JJJComics.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9C56SBN5RU;
+				DEVELOPMENT_TEAM = 3Y93TM9MP3;
 				INFOPLIST_FILE = JJJComics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jjj.JJJComics;
@@ -664,7 +736,7 @@
 			baseConfigurationReference = 072AD5D87F89CFF64BC3C231 /* Pods-JJJComics.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9C56SBN5RU;
+				DEVELOPMENT_TEAM = 3Y93TM9MP3;
 				INFOPLIST_FILE = JJJComics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jjj.JJJComics;

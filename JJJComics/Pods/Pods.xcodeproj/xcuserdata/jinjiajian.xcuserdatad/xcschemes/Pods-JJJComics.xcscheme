@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "23460535BE43B02927F5AD62CE361EB1"
+               BlueprintIdentifier = "03A223FAE14451C5ADB7C9B3325DAD0A"
                BuildableName = "Pods_JJJComics.framework"
                BlueprintName = "Pods-JJJComics"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -36,6 +37,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -45,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "23460535BE43B02927F5AD62CE361EB1"
+            BlueprintIdentifier = "03A223FAE14451C5ADB7C9B3325DAD0A"
             BuildableName = "Pods_JJJComics.framework"
             BlueprintName = "Pods-JJJComics"
             ReferencedContainer = "container:Pods.xcodeproj">

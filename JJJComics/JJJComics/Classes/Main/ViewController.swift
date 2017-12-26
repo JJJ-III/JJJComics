@@ -112,6 +112,13 @@ class ViewController: UIViewController {
     func click() {
         
         self.mytest = "新垣结衣"
+        
+        let webViewVC : JJJWebViewViewController = JJJWebViewViewController()
+        let nvc : UINavigationController = UINavigationController(rootViewController:webViewVC)
+        self.present(nvc, animated: true, completion: nil)
+        
+//        self.navigationController?.pushViewController(webViewVC, animated: true)
+        
     }
 
 
