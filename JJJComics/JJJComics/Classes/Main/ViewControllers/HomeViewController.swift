@@ -15,6 +15,7 @@ class HomeViewController: BaseViewController {
 
         configUI()
         
+        
     }
 
     override func didReceiveMemoryWarning() {
