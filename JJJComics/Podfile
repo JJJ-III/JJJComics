@@ -6,7 +6,6 @@ target 'JJJComics' do
   use_frameworks!
 
   # Pods for JJJComics
-  pod 'SnapKit','~> 4.0.0'
 
   target 'JJJComicsTests' do
     inherit! :search_paths
