@@ -54,7 +54,7 @@ class ViewController: UIViewController {
         myButton.frame.size.width = 100
         myButton.frame.size.height = 100
         myButton.backgroundColor = UIColor.green
-        myButton.addTarget(self, action: #selector(ViewController.click), for: UIControlEvents.touchUpInside)
+        myButton.addTarget(self, action: #selector(ViewController.click), for: UIControl.Event.touchUpInside)
         
         
         print(self.mytest)
@@ -109,7 +109,7 @@ class ViewController: UIViewController {
         
     }
     
-    func click() {
+    @objc func click() {
         
         self.mytest = "新垣结衣"
         
